@@ -8,9 +8,13 @@ def es_divisible():
             i += 1
             return suma
         
+        
     def main():
         suma = es_divisible()
         print(suma)
 
         if __name__ == "__main__":
             main()
+
+
+"estructura de control (elementos) variables, while, contador"
