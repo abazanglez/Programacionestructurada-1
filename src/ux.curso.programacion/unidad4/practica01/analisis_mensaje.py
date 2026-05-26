@@ -2,7 +2,7 @@ print ("funciones externas (biblioteca)")
 
 # 1. IMPORTACIÓN
 # Importamos la biblioteca externa y le asignamos un alias 'np' para facilitar su uso
-
+import numpy as np #como ya no estamos declarondo o mas bien, como no estamos importando la libreria y en el codigo estamos usando funciones de esa libreria , simplemente nos manda error 
 def procesar_estadisticas(lista_mensajes):
  """
  Función que recibe datos y utiliza funciones externas de
